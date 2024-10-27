@@ -1,6 +1,6 @@
-:: Demo batch file to configure something 
+:: Demo8 batch file will attempt to copy a file DoesNotExist.exe from a specified path C:\Windows\ to the directory %TEMP% and check the error to see if it was successgul.
 :: By: IRAKLI
-:: Initial file: 03/10/24
+:: Initial file: 27/10/24
 :: Filename: Demo8.bat
 
 @echo off
@@ -20,3 +20,4 @@ Copy %ospath%%filename% %TEMP%
 IF %ERRORLEVEL% NEQ 0 (
  echo The error level was %ERRORLEVEL% and that did not work.
 )
+pause

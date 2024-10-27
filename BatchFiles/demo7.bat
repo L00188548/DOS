@@ -1,6 +1,6 @@
-:: Demo batch file to configure something 
+:: Demo7 batch file will check the existence of explorer.exe in a given directory.
 :: By: IRAKLI
-:: Initial file: 03JAN18
+:: Initial file: 27/10/24
 :: Filename: Demo7.bat
 
 @echo off
@@ -19,3 +19,4 @@ If exist %ospath%%filename% (
 ) else (
 	echo No file named %filename%
 )
+pause

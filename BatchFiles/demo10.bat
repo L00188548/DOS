@@ -1,16 +1,16 @@
-:: Demo batch file to configure something 
+:: Demo batch file create a simple backup operation with logging functionality. It attempts to copy two files
+:: one that exists explorer.exe and one doesnt DoesNotExist.exe. The script logs the output of these operations to a file named SimpleBackup.log
 :: By: IRAKLI
-:: Initial file: 03/10/24
+:: Initial file: 27/10/24
 :: Filename: Demo10.cmd
 
 @echo off
 cls
-title IRAKLI's simple backup with logging
+title IRAKLI's Simple Backup with Logging
 echo *******************************************
 echo This batch file will do stuff
 echo This is for demonstration purposes only.
 echo *******************************************
-
 :: Create a blank file or erase it if it already exists
 echo *** Demo10 Logfile *** > SimpleBackup.log
 
@@ -19,6 +19,9 @@ SET filename1=explorer.exe
 SET filename2=DoesNotExist.exe
 
 echo 1. Copying %filename1% >> SimpleBackup.log
-copy %ospath%%filename1% %TEMP% >> SimpleBackup.log 2>&1
+copy "%ospath%%filename1%" "%TEMP%" >> SimpleBackup.log 2>&1
+
 echo 2. Copying %filename2% >> SimpleBackup.log
-copy %ospath%%filename2% %TEMP% >> SimpleBackup.log 2>&1
+copy "%ospath%%filename2%" "%TEMP%" >> SimpleBackup.log 2>&1
+
+pause

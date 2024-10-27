@@ -1,6 +1,6 @@
-:: Demo batch file to configure something 
+:: Demo6 batch file prompt the user for their name and then display that name.
 :: By: IRAKLI
-:: Initial file: 03JAN18
+:: Initial file: 27/10/24
 :: Filename: Demo6.bat
 
 @echo off
@@ -14,3 +14,4 @@ echo *******************************************
 
 set /p NAME=What is your name?
 echo Your name is %NAME%
+pause

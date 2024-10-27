@@ -1,6 +1,6 @@
-:: Demo batch file to configure something 
+:: Demo4 batch file we use user interaction, veriables and calculations to demonstrate complex batch operations 
 :: By: IRAKLI
-:: Initial file: 03/10/24
+:: Initial file: 27/10/24
 :: Filename: Demo4.bat
 
 @echo off

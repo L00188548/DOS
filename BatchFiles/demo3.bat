@@ -1,6 +1,6 @@
-:: Demo batch file to configure something 
+:: Demo3 batch file displays mesages and PAUSE ommand gives option to cancel the process by pressing Ctrl + C
 :: By: IRAKLI
-:: Initial file: 03/10/24
+:: Initial file: 27/10/24
 :: Filename: Demo3.bat
 
 @echo off
