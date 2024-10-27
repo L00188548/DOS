@@ -17,7 +17,7 @@ alt="GMIT Logo" width="500" height="200"/>
 | **Module Lecturer**      | Danny McFadden |
 
 ***
-# **Cheat Sheet Exercise**
+# **DOS Exercise**
 
 *Steps to complete this exercise & Final grad 10%*
 ---------------------------------------------------
