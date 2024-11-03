@@ -14,7 +14,7 @@ alt="GMIT Logo" width="500" height="200"/>
 | **Module**              | Infrastructure as Code (2024/25) |
 | **Institute**           | [Galway-Mayo Institute of Technology](https://www.lyit.ie/Study-at-ATU-Donegal/Find-a-course/Springboard-Courses) |
 | **Student**             | [Irakli Lomidze](https://github.com/) |
-| **Module Lecturer**      | Danny McFadden |
+| **Module Lecturer**     | John O'Raw |
 
 ***
 # **DOS Exercise**
