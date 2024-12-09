@@ -19,10 +19,15 @@ alt="GMIT Logo" width="500" height="200"/>
 ***
 # **DOS Exercise**
 
-*Steps to complete this exercise & Final grad 10%*
+*Batch File Demonstration & Final grade 10%*
 ---------------------------------------------------
-1. On your computer, create a folder called *DOS*.
-2. In my notes, I gave 11 examples previously. You tested these, editing most of them to demonstrate you understood the content. 
-3. Save these examples to the folder called *DOS* and create a file *readme.txt* describing your work to a peer. Make this a *GIT* repo on your local machine.  
-4. On GITHUB create a PRIVATE repo called DOS with readme.md, a license file and a gitignore and synchronize with your local repo. Give your lecturer access as a contributor. This is worth *10% of your final grade*.
-5. Lecturer's Account = https://github.com/GreatlyImprovedTechnology
+This repository contains several demonstration .bat files 
+designed to showcase various batch scripting techniques and concepts. 
+Each file serves a unique purpose, from basic commands to user 
+interaction, arithmetic, and file operations. In each .bat file you will find description of script and its purpose.
+
+### Usage Instructions
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the .bat files.
+3. Run a script by typing its filename (e.g., demo1.bat).
+4. Follow on-screen instructions for interaction, if required.
